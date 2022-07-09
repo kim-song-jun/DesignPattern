@@ -60,8 +60,7 @@ const bankmanager = new BankManager(state);
 // 4. command 등록
 bankmanager.registerCommands(deposit, withdrawal);
 
-// 5. command 지시
-
+// 5. command 지시  
 bankmanager.executeCmd('Deposit', 100);
 bankmanager.executeCmd('Deposit', 1000);
 
